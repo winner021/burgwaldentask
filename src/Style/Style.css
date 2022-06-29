@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.title{
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.about{
+    text-align: center;
+   margin-top: 1rem;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+    font-weight: 600;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    max-width: 50vw;
+    background-color:rgb(252, 252, 252) ;
+    margin-left: 15rem;
+    margin-top: 10rem;
+    
+}
+
+.card .bars i{
+    background-color:rgb(224, 224, 224) ;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+    color: rgb(186, 186, 186);
+}
+.line{
+    max-width: 50vw;
+    margin-left: 15rem;
+    background-color:rgb(252, 252, 252) ;
+    padding:2rem;
+    border-radius: 1rem;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    padding-top: 0;
+}
+.About{
+    max-width: 50vw;
+  
+    background-color:rgb(252, 252, 252) ;
+    padding:2rem;
+    padding-bottom: 0;
+
+    
+   
+}
+.About .sales{
+    font-weight: 600;
+}
+.About .user{
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    color: rgb(175, 175, 175);
+    margin-bottom: 2rem;
+}
+.About .cost{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.About .goal{
+    color: rgb(175, 175, 175);
+    font-size:0.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.bar{
+    margin-left: 15rem;
+    height: 10rem;
+    width: 15rem;
+    margin-bottom: -5rem;
+    background-color: rgb(252, 252, 252)  ;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 1rem;
+
+}
+
+.sales{
+   margin-left: 15rem;
+    margin-top: 2rem;
+    background-color:rgb(252, 252, 252)   ;
+    width: 15rem;
+    display: inline-block;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.sales .Sales_num{
+   display: flex;
+   padding: 1rem;
+   
+}
+.sales .Sales_num .capital{
+    font-weight: 700;
+    font-size: 1.2rem;
+    ;
+}
+.sales .Sales_num .sales_increase{
+    background-color:#32a8a4 ;
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.4rem;
+    margin-left: 0.3rem;
+}
+.sales .Avg_daily{
+    padding-left: 1rem;
+    font-size: 0.8rem;
+    color: rgb(175, 175, 175);
+    font-weight: 600;
+}
+.sales .Sales_num .sales_increase i{
+    font-weight: 100;
+}
